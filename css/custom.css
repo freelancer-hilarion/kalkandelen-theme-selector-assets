@@ -1,0 +1,80 @@
+.icon-custom{
+	text-align: center;
+	padding: 5%;
+	display: block;
+
+}
+
+.icon-custom p{
+
+}
+
+
+/*  GRID  */
+.row-custom {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col-custom {
+	display: block;
+	float:left;
+	margin: 1% 0 1% .5%;
+}
+.col-custom:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TEN  */
+.span-10{
+	width: 100%;
+}
+
+.span-9{
+	width: 89.95%;
+}
+
+.span-8{
+	width: 79.9%;
+}
+
+.span-7{
+	width: 69.85%;
+}
+
+.span-6{
+	width: 59.8%;
+}
+
+.span-5{
+	width: 49.75%;
+}
+
+.span-4{
+	width: 39.7%;
+}
+
+.span-3{
+	width: 29.65%;
+}
+
+.span-2{
+	width: 19.6%;
+}
+
+.span-1{
+	width: 9.55%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	
+	.span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, { width: 100%; }
+}

@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input"
+			],
+			[
+				"gr",
+				"green	 materialize.css"
+			],
+			[
+				"row",
+				"row-group	 grid.css"
+			],
+			[
+				"col",
+				"col-3	 grid.css"
+			],
+			[
+				"row-",
+				"row-custom	 custom.css"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"disl",
+				"display"
+			],
+			[
+				"whi",
+				"white-text	 materialize.min.css"
+			],
+			[
+				"ro",
+				"row	 materialize.min.css"
+			],
+			[
+				"ma",
+				"materialize.css"
+			],
+			[
+				"r",
+				"ripples.min.js.map"
+			],
+			[
+				"re",
+				"respond.min.js"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"mdi-s",
+				"mdi-social-people	 materialize.css"
+			],
+			[
+				"mdi",
+				"mdi-action-label	 materialize.css"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ora",
+				"orange	 materialize.css"
+			],
+			[
+				"white",
+				"white-text	 materialize.css"
+			],
+			[
+				"md-so",
+				"mdi-social-people	 materialize.css"
+			],
+			[
+				"ce",
+				"center	 materialize.css"
+			],
+			[
+				"col-",
+				"col-set	 grid.css"
+			],
+			[
+				"j",
+				"jquery.min.js"
+			],
+			[
+				"m",
+				"m3	 materialize.css"
+			],
+			[
+				"co",
+				"col-3	 grid.css"
+			],
+			[
+				"a",
+				"activates"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"cl",
+				"click〔function〕"
+			],
+			[
+				"debug",
+				"DEBUG"
+			],
+			[
+				"d",
+				"debug	param"
+			],
+			[
+				"S",
+				"SQLAlchemy"
+			],
+			[
+				"sta",
+				"static_folder"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"spa",
+				"span_2_of_4"
+			],
+			[
+				"template",
+				"template_folder"
+			],
+			[
+				"u",
+				"url_for	import"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/stroodlepup/Projects/python/project_daisy/views/index.html",
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"cs",
+				"CSS Completions: Prune Cache"
+			],
+			[
+				"css",
+				"CSS3: Validate"
+			],
+			[
+				"",
+				"CSS Completions: Delete Cache"
+			],
+			[
+				"V",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 241.0,
+		"history":
+		[
+			"exit()",
+			"exit",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/stroodlepup/Servers/flask_new",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/html/communityprofile.html",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/css/materialize.css",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/css/custom.css",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/html/home.html",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/html/template.html",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/css/materialize.min.css",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/css/reset.css",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/html/index.html",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/stroodlepup/Projects/web/project_daisy-assets/css/grid.css",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/stroodlepup/Projects/python/flask-test/views/communityprofile.html",
+		"/home/stroodlepup/Projects/python/flask-test/views/index.html",
+		"/home/stroodlepup/Projects/python/flask-test/controllers/application.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/stroodlepup/Projects/python/flask-test/views/home.html",
+		"/home/stroodlepup/Projects/python/flask-test/views/login.html",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/stroodlepup/Projects/python/flask-test/models/communityprofile.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Virtualenv/README.md",
+		"/home/stroodlepup/Projects/python/flask-test/models/__init__.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/Virtualenv.sublime-settings",
+		"/home/stroodlepup/Projects/python/flask-test/controllers/__init__.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/stroodlepup/Projects/python/flask-test/assets/grid.css",
+		"/home/stroodlepup/Projects/python/flask-test/controllers/flask-test.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/css_style_completions.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/stroodlepup/Projects/python/flask-test/assets/widgets.css",
+		"/home/stroodlepup/Projects/python/flask-test/static/grid.css",
+		"/home/stroodlepup/Projects/python/flask-test/templates/login.html",
+		"/home/stroodlepup/Projects/python/flask-test/templates/index.html",
+		"/home/stroodlepup/Projects/python/flask-test/templates/home.html",
+		"/home/stroodlepup/Projects/python/flask-test/templates/grid.css",
+		"/home/stroodlepup/Projects/python/flask-test/flask-test.py",
+		"/home/stroodlepup/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/stroodlepup/Projects/python/flask-test/static/index.html",
+		"/home/stroodlepup/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/stroodlepup/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@media",
+			"_of_10",
+			"span_",
+			"_of_10 ",
+			"ctrl+d",
+			"</",
+			"()\n",
+			"\",  ",
+			"span_",
+			"group",
+			".span",
+			"_of_12",
+			"<div class=\"section group\">\n			<div class=\"col span_1_of_4\">1 of 4</div>\n			<div class=\"col span_1_of_4\">1 of 4</div>\n			<div class=\"col span_1_of_4\">1 of 4</div>\n			<div class=\"col span_1_of_4\">1 of 4</div>	\n		</div>",
+			"div",
+			">	",
+			"http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png",
+			"container",
+			"preferences",
+			"package",
+			"inputPassword3",
+			"inputEmail3",
+			"inputPassword3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"span-",
+			"",
+			"col_",
+			"row_",
+			"row",
+			".col",
+			"",
+			"null",
+			"container-fluid",
+			"password",
+			"username",
+			"password"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/stroodlepup/Projects/python/project_daisy/views/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 225.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "project_daisy.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
