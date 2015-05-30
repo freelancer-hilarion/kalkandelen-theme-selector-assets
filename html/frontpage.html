@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Basic Page Needs -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- FONT–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <!-- FONT–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 
-    <!-- CSS–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/reset.css"/>
-    <link rel="stylesheet" href="../css/materialize.min.css"/>
-    <link rel="stylesheet" href="../css/custom.css"/>
-    <link rel="stylesheet" href="../css/style.css"/>
+  <!-- CSS–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/reset.css"/>
+  <link rel="stylesheet" href="../css/materialize.min.css"/>
+  <link rel="stylesheet" href="../css/custom.css"/>
+  <link rel="stylesheet" href="../css/grid.css"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <!--link rel="stylesheet/less" type="text/css" href="../less/custom.less" /-->
 
-    <!-- Favicon–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Favicon–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -32,14 +34,116 @@
 
     <!-- Page Title––––––––––––––––––––––––––––––––––––––––––––––––––  -->
     <title>Sample Page</title>
-</head>
+  </head>
+  <body>
+    <!--please transfer to other pages-->
+    <style type="text/css">
+      @media only screen and (min-width : 993px) {
+        nav a.button-collapse {
+          /*display: none;*/ 
+        } 
+      }
+    </style>
 
-<body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="" class="brand-logo left">Logo</a>
+        <a class="button-collapse" data-activates="sidebar"><i class="mdi-navigation-apps"></i></a>
+        <form class="right">
+          <div class="input-field">
+            <input id="search" type="search" placeholder="Search" required>
+            <label for="search"><i class="mdi-action-search"></i></label>
+            <i class="mdi-navigation-close"></i>
+          </div>
+        </form>
+        <ul class="right">
+        </ul>
+        <ul class="side-nav" id="sidebar">
+          <li></li>
+          <li>
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label for="search"><i class="mdi-action-search black-text"></i></label>
+                <i class="mdi-navigation-close"></i>
+              </div>
+            </form>
+          </li>
+        </ul>
 
+      </div>
+    </nav>
 
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <div class="card small">
+          <div class="darkblue-custom"></div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="../img/office.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">THEME 1 <i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card small">
+          <div class="darkblue-custom"></div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="../img/office.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card small">
+          <div class="darkblue-custom"></div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="../img/office.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card small">
+          <div class="darkblue-custom"></div>
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="../img/office.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<script src="https://http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="../js/materialize.min.js"></script>
-
-</body>
-</html>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!--script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/frontpage.js"></script>>
+  </body>
+  </html>

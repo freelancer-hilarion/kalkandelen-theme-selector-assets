@@ -1,69 +1,37 @@
 
-/*  GRID  */
-.row-custom {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+.darkblue-custom {
+  background-color: #0288d1;
 }
-
-/*  COLUMN SETUP  */
-.col-custom {
-	display: block;
-	float:left;
-	margin: 1% 0 1% .5%;
+.darkblue-custom-text {
+  color: #0288d1;
 }
-.col-custom:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-
-/*  GRID OF TEN  */
-.span-10{
-	width: 100%;
+.blue-custom {
+  background-color: #03a9f4;
 }
-
-.span-9{
-	width: 89.95%;
+.blue-custom-text {
+  color: #03a9f4;
 }
-
-.span-8{
-	width: 79.9%;
+.lightblue-custom {
+  background-color: #b3e5fc;
 }
-
-.span-7{
-	width: 69.85%;
+.lightblue-custom-text {
+  color: #b3e5fc;
 }
-
-.span-6{
-	width: 59.8%;
+.bluegray-custom {
+  background-color: #607d8b;
 }
-
-.span-5{
-	width: 49.75%;
+.bluegray-custom-text {
+  color: #607d8b;
 }
-
-.span-4{
-	width: 39.7%;
+.black-custom {
+  background-color: #212121;
 }
-
-.span-3{
-	width: 29.65%;
+.black-custom-text {
+  color: #212121;
 }
-
-.span-2{
-	width: 19.6%;
+.white-custom {
+  background-color: #ffffff;
 }
-
-.span-1{
-	width: 9.55%;
-}
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	
-	.span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, { width: 100%; }
+.white-custom-text {
+  color: #ffffff;
 }
